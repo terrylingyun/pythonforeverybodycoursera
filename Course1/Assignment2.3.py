@@ -1,0 +1,5 @@
+hours = input('How long did you work?')
+rate = input('How much do you get per hour?')
+hours = float(hours)
+rate = float(rate)
+print('Pay:',hours*rate)
